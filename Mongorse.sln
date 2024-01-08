@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{969F89E3-2101-4C91-A80F-E2E8C8E3FDC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongorse", "src\Mongorse\Mongorse.csproj", "{6F2B603D-D4AA-42DC-9355-37D6B899E597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongorse.DependencyInjection", "src\Mongorse.DependencyInjection\Mongorse.DependencyInjection.csproj", "{EDB1FE0E-1F20-40F1-B70F-FC1033B0F911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F2B603D-D4AA-42DC-9355-37D6B899E597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2B603D-D4AA-42DC-9355-37D6B899E597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2B603D-D4AA-42DC-9355-37D6B899E597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2B603D-D4AA-42DC-9355-37D6B899E597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB1FE0E-1F20-40F1-B70F-FC1033B0F911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB1FE0E-1F20-40F1-B70F-FC1033B0F911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB1FE0E-1F20-40F1-B70F-FC1033B0F911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB1FE0E-1F20-40F1-B70F-FC1033B0F911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F2B603D-D4AA-42DC-9355-37D6B899E597} = {969F89E3-2101-4C91-A80F-E2E8C8E3FDC1}
+		{EDB1FE0E-1F20-40F1-B70F-FC1033B0F911} = {969F89E3-2101-4C91-A80F-E2E8C8E3FDC1}
+	EndGlobalSection
+EndGlobal
