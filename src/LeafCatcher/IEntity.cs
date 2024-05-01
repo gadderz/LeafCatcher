@@ -1,6 +1,6 @@
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace Mongorse;
+namespace LeafCatcher;
 
 public interface IEntity<TId> where TId : IComparable<TId>, IEquatable<TId>
 {

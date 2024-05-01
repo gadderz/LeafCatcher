@@ -1,7 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using MongoDB.Driver;
 
-namespace Mongorse;
+namespace LeafCatcher;
 
 public class ContextBase : IDisposable
 {

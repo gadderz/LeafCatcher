@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace Mongorse;
+namespace LeafCatcher;
 
 public interface IDbSet<TEntity, TId> 
     where TEntity : IEntity<TId> 

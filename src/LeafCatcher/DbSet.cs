@@ -1,7 +1,7 @@
 using MongoDB.Driver;
 using System.Linq.Expressions;
 
-namespace Mongorse;
+namespace LeafCatcher;
 
 public class DbSet<TEntity, TId> : IDbSet<TEntity, TId>
     where TEntity : IEntity<TId>
